@@ -1,7 +1,7 @@
-# TRY2TEXT
+# TRY to TEXT
 
 # DEMO
-[YOU CAN TRY TRY2TEXT](https://codepen.io/karademir/pen/ZEBNqqJ/).
+[YOU CAN TRY "TRY to TEXT"](https://codepen.io/karademir/pen/ZEBNqqJ/).
 
 
 ## Project setup
