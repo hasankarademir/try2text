@@ -67,9 +67,9 @@ var try2text = {
 					${FIRST} ${SECOND} ${THIRD} ${STEP ? STEP + BRACE : '' } ${text_number}
 				`;
 			})
-			var realTextNumer = text_number + TL + LIST_NUMBER_DECA[VALUE_PENNY[0]] + ' ' + (VALUE_PENNY[1] == 0 ? '' : LIST_NUMBER[VALUE_PENNY[1]] ) + ' ' + (VALUE_PENNY !== '00' ? TEXT_PENNY : '')
+			var realTextNumber = text_number + TL + LIST_NUMBER_DECA[VALUE_PENNY[0]] + ' ' + (VALUE_PENNY[1] == 0 ? '' : LIST_NUMBER[VALUE_PENNY[1]] ) + ' ' + (VALUE_PENNY !== '00' ? TEXT_PENNY : '')
 			
-			return realTextNumer
+			return realTextNumber
 		},
 		tlFormat: (value) => {
 			const currency_symbol = "₺"
