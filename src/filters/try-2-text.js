@@ -58,6 +58,10 @@ var try2text = {
 				var SECOND = item[1] == 0 ? ' ' : LIST_NUMBER_DECA[item[1]];
 				var THIRD = item[2] == 0 ? ' ' : LIST_NUMBER[item[2]];
 				var STEP = index >= 1 ? LIST_STEP[index] : ''
+				if(item[0] == 0 && item[1] == 0 && item[2] == 0) {
+					STEP = ''
+				}
+				
 
 				text_number = `
 					${FIRST} ${SECOND} ${THIRD} ${STEP ? STEP + BRACE : '' } ${text_number}
